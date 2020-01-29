@@ -6,8 +6,9 @@
     "start": "nodemon src/index.js"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "eslint": "^5.16.0",
-    "nodemon": "^1.19.1"
+    "nodemon": "^2.0.2"
   },
   "dependencies": {
     "express": "^4.17.1",
