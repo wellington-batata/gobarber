@@ -10,16 +10,16 @@ class App {
   }
 
   middlwares() {
-    this.server.use(express.json())
+    this.server.use(express.json());
   }
 
   routes() {
-    this.server.use(routes)
+    this.server.use(routes);
   }
 
-  views() {
-    
-  }
+  // views() {
+
+  // }
 }
 
 export default new App().server;
